@@ -32,6 +32,9 @@ Produces `dist/soldier_total_column-<version>.zip` ready to attach to a GitHub R
 
 ## Screenshots
 
+<img width="1724" height="1164" alt="Screenshot_20260504_001927" src="https://github.com/user-attachments/assets/2b0fa4a6-d6a3-4d79-9f1e-698e441f1b92" />
+<img width="1124" height="1009" alt="Screenshot_20260504_001939" src="https://github.com/user-attachments/assets/4db98190-f8ca-4d14-9cad-6a297a15a210" />
+
 ## License
 
 [MIT](LICENSE).
