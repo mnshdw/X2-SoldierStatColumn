@@ -1,6 +1,6 @@
 # Soldier Total Column - Xenonauts 2 mod
 
-A QoL mod for [Xenonauts 2](https://store.steampowered.com/app/538030/Xenonauts_2/). Adds a column to the Soldiers screen showing the sum of all stats, so you can spot the soldiers with the highest potential more easily.
+A QoL mod for [Xenonauts 2](https://store.steampowered.com/app/538030/Xenonauts_2/). Adds a column to the Soldiers screen showing the sum of all stats.
 
 ## Install
 
