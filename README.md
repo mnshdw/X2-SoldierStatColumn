@@ -10,6 +10,11 @@ A QoL mod for [Xenonauts 2](https://store.steampowered.com/app/538030/Xenonauts_
    - **Linux (Steam Proton):** `~/.local/share/Steam/steamapps/compatdata/538030/pfx/drive_c/users/steamuser/AppData/LocalLow/Goldhawk Interactive/Xenonauts 2/`
 3. Launch Xenonauts 2 -> main menu -> **Mods** -> enable **Soldier Total Column** -> restart.
 
+## Screenshots
+
+<img width="1724" height="1164" alt="Screenshot_20260504_001927" src="https://github.com/user-attachments/assets/2b0fa4a6-d6a3-4d79-9f1e-698e441f1b92" />
+<img width="1124" height="1009" alt="Screenshot_20260504_001939" src="https://github.com/user-attachments/assets/4db98190-f8ca-4d14-9cad-6a297a15a210" />
+
 ## Build from source
 
 Requires the [.NET SDK](https://dotnet.microsoft.com/download) (8.0 or later) and a Xenonauts 2 install.
@@ -29,11 +34,6 @@ The build emits `bin/Release/netstandard2.1/SoldierTotalColumn.dll` and also cop
 ```
 
 Produces `dist/soldier_total_column-<version>.zip` ready to attach to a GitHub Release. Version is read from `mod/manifest.json`.
-
-## Screenshots
-
-<img width="1724" height="1164" alt="Screenshot_20260504_001927" src="https://github.com/user-attachments/assets/2b0fa4a6-d6a3-4d79-9f1e-698e441f1b92" />
-<img width="1124" height="1009" alt="Screenshot_20260504_001939" src="https://github.com/user-attachments/assets/4db98190-f8ca-4d14-9cad-6a297a15a210" />
 
 ## License
 
