@@ -1,0 +1,15 @@
+{
+	"version": "0.0.4",
+	"asset": {
+		"Name": "Soldier Total Column",
+		"UID": "7c3d2f1a-9e4b-4d80-bf21-5a3c8d6e7f2b",
+		"Description": "Adds a column to the Soldiers screen showing the sum of all stats, so you can spot the soldiers with the highest potential more easily.",
+		"Author": "mnshdw",
+		"Website": "",
+		"Tags": ["UI", "QoL"],
+		"Version": "0.1.0",
+		"MinimumVersion": "7.20.4",
+		"$type": "Common.Content.DataStructures.ContentPackManifest"
+	},
+	"$type": "Common.Content.DataStructures.VersionedAsset"
+}
