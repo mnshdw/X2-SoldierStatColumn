@@ -1,15 +1,24 @@
 {
-	"version": "0.0.4",
-	"asset": {
-		"Name": "Soldier Total Column",
-		"UID": "7c3d2f1a-9e4b-4d80-bf21-5a3c8d6e7f2b",
-		"Description": "Adds a column to the Soldiers screen showing the sum of all stats.",
-		"Author": "mnshdw",
-		"Website": "",
-		"Tags": ["UI", "QoL"],
-		"Version": "0.1.0",
-		"MinimumVersion": "7.20.4",
-		"$type": "Common.Content.DataStructures.ContentPackManifest"
-	},
-	"$type": "Common.Content.DataStructures.VersionedAsset"
+    "version": "0.1.0",
+    "asset": {
+        "Source": "SteamWorkshop",
+        "UID": "3726627096",
+        "Name": "Soldier Total Column",
+        "Description": "Adds a column to the Soldiers screen showing the sum of all stats.",
+        "Visiblity": "Public",
+        "Author": "mnshdw",
+        "Website": "https://github.com/mnshdw/X2-SoldierTotalColumn",
+        "Credits": "mnshdw",
+        "Tags": [
+            "UI",
+            "QoL"
+        ],
+        "Dependencies": [],
+        "SupportedLanguages": [],
+        "Version": "0.1.0",
+        "MinimumVersion": "7.21.6",
+        "MaximumVersion": false,
+        "$t": "14"
+    },
+    "$t": "15"
 }
