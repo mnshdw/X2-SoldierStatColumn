@@ -5,7 +5,7 @@
         "UID": "3726627096",
         "WorkshopID": "3726627096",
         "Name": "Soldier Total Column",
-        "Description": "Adds a column to the Soldiers screen showing the sum of all stats.",
+        "Description": "[b]Soldier Total Column for Xenonauts 2[/b]: adds a Total column to the soldier management and recruitment screens, showing the sum of Health, Time Units, Accuracy, Strength, Reflexes, and Bravery.\n\n[h2]Usage[/h2]\nEnable Soldier Total Column in the game's Mods menu.\n\n[h2]Source[/h2]\n[url=https://github.com/mnshdw/X2-SoldierTotalColumn]github.com/mnshdw/X2-SoldierTotalColumn[/url]",
         "Visibility": "Public",
         "Author": "mnshdw",
         "Website": "https://github.com/mnshdw/X2-SoldierTotalColumn",
