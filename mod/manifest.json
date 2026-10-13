@@ -3,9 +3,10 @@
     "asset": {
         "Source": "SteamWorkshop",
         "UID": "3726627096",
+        "WorkshopID": "3726627096",
         "Name": "Soldier Total Column",
         "Description": "Adds a column to the Soldiers screen showing the sum of all stats.",
-        "Visiblity": "Public",
+        "Visibility": "Public",
         "Author": "mnshdw",
         "Website": "https://github.com/mnshdw/X2-SoldierTotalColumn",
         "Credits": "mnshdw",
@@ -14,10 +15,12 @@
             "QoL"
         ],
         "Dependencies": [],
+        "LoadBefore": [],
+        "LoadAfter": [],
+        "IncompatibleWith": [],
+        "RemoveFiles": [],
         "SupportedLanguages": [],
-        "Version": "0.1.0",
-        "MinimumVersion": false,
-        "MaximumVersion": false,
+        "Version": "0.1.1",
         "$t": "14"
     },
     "$t": "15"
