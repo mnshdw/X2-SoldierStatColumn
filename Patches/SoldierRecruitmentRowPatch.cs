@@ -1,11 +1,8 @@
 using System;
 using Artitas;
 using HarmonyLib;
-using TMPro;
 using UnityEngine;
-using Xenonauts.Common.Util;
 using Xenonauts.Strategy.UI;
-using Xenonauts.Strategy.Utils;
 using static SoldierTotalColumn.ModConstants;
 
 namespace SoldierTotalColumn.Patches
@@ -36,13 +33,7 @@ namespace SoldierTotalColumn.Patches
                     return;
                 }
 
-                int total =
-                    (int)actor.GetWoundUnmodifiedHitPoints().ToStrategyBoundedRange().Value
-                    + (int)actor.TimeUnits().ToStrategyBoundedRange().Value
-                    + (int)actor.Accuracy().ToStrategyBoundedRange().Value
-                    + (int)actor.Strength().ToStrategyBoundedRange().Value
-                    + (int)actor.Reflexes().ToStrategyBoundedRange().Value
-                    + (int)actor.Bravery().ToStrategyBoundedRange().Value;
+                int total = TotalSort.Compute(actor);
 
                 totalText.text = total.ToString("N0");
                 TotalColorRegistry.Update("recruit", totalText, total);

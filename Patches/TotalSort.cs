@@ -11,7 +11,8 @@ namespace SoldierTotalColumn.Patches
 
         public static int Compute(Entity actor)
         {
-            return (int)actor.GetWoundUnmodifiedHitPoints().ToStrategyBoundedRange().Value
+            // Match the Soldiers screen's full health stat, independent of current wounds.
+            return (int)actor.UnmodifiedHitPoints().ToStrategyBoundedRange().Value
                 + (int)actor.TimeUnits().ToStrategyBoundedRange().Value
                 + (int)actor.Accuracy().ToStrategyBoundedRange().Value
                 + (int)actor.Strength().ToStrategyBoundedRange().Value
